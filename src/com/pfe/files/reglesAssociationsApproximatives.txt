@@ -1,0 +1,4 @@
+[c=-] -> [i=A	i=B	i=E	i=H]	supp=1 conf=0.33
+[c=-] -> [i=A	i=C	i=F]	supp=1 conf=0.33
+[c=-] -> [i=A	i=C]	supp=2 conf=0.67
+[i=E	c=-] -> [i=A	i=C	i=H]	supp=1 conf=0.50

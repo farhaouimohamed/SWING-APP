@@ -1,0 +1,5 @@
+Resultat du fichier des régles approximatives :
+[c=-] -> [i=A	i=C]	supp=2 conf=0.67
+Resultat du fichier des régles exactes :
+[c=-] => [i=A]	supp=3 conf=1
+[i=B	c=-] => [i=A	i=E]	supp=2 conf=1

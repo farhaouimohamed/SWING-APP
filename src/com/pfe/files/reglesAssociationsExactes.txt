@@ -1,0 +1,7 @@
+[c=-] => [i=A]	supp=3 conf=1
+[i=H	c=-] => [i=A	i=B	i=C	i=E]	supp=1 conf=1
+[i=C	i=E	c=-] => [i=A	i=B	i=H]	supp=1 conf=1
+[i=B] => [i=A]	supp=6 conf=1
+[i=B	i=C] => [i=A]	supp=5 conf=1
+[i=B	i=C	c=-] => [i=A	i=E	i=H]	supp=1 conf=1
+[i=B	c=-] => [i=A	i=E]	supp=2 conf=1
