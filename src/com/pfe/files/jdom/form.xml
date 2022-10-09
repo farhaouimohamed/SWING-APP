@@ -1,0 +1,33 @@
+<LatVis version="2.0">
+    <Lattices>
+        <Lattice>
+            <Name/>
+            <Elements/>
+            <Order/>
+            <Diagram/>
+        </Lattice>
+    </Lattices>
+    <AppSpecificData>
+        <Selection/>
+        <SearchResults/>
+        <SavedSelections/>
+        <GuideLines>
+            <Style>
+                <Color>-8355712</Color>
+                <Width>1</Width>
+                <Dashing/>
+                <ShowGrid>false</ShowGrid>
+                <ShowEdge>false</ShowEdge>
+                <ShowParallel>false</ShowParallel>
+                <SpacingHoriz>60</SpacingHoriz>
+                <SpacingVert>30</SpacingVert>
+                <Angle>0</Angle>
+                <StickingDist>5</StickingDist>
+                <Grid>false</Grid>
+                <OnlyIntersec>false</OnlyIntersec>
+            </Style>
+            <CenterPoint x="0.0" y="58.0"/>
+        </GuideLines>
+        <Zoom>1.0</Zoom>
+    </AppSpecificData>
+</LatVis>

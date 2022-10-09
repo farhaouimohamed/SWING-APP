@@ -1,6 +1,7 @@
 package com.pfe.selectionClusters;
 
 import com.pfe.Utils;
+import com.pfe.jdom.DocWriteJDOM;
 import com.pfe.selectionFiles.Frame;
 import com.pfe.visualisation.VisualisationBiCluster;
 
@@ -65,9 +66,12 @@ public class SelectionClustersFrame extends JFrame{
                 if (!TextArea.equals("")){
                     try {
                         String[] result = Utils.executeBiClusterSelection(biClusterFile.getSelectedFile(), getSelectedItems());
+                        DocWriteJDOM.makeDocc((result[0]+result[1]).split("\n"));
                         createFileWithBiclusterResult(result);
                         VisualisationBiCluster visualisationBiClusterFrame = new VisualisationBiCluster(result);
                     } catch (IOException ex) {
+                        throw new RuntimeException(ex);
+                    } catch (Exception ex) {
                         throw new RuntimeException(ex);
                     }
                     executeLabel.setText("Item choisis : " + TextArea.getText());

@@ -1,0 +1,9 @@
+<Edge from="5" to="1">
+    <Style>
+        <Color>-65536</Color>
+        <Width>1</Width>
+        <Dashing/>
+        <Visible>true</Visible>
+        <DistanceFromNode>5</DistanceFromNode>
+    </Style>
+</Edge>
